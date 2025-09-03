@@ -1,0 +1,6 @@
+// Example: Auto-update age dynamically
+const birthYear = 2001; // <-- update your birth year here
+const currentYear = new Date().getFullYear();
+const age = currentYear - birthYear;
+
+document.getElementById("ageValue").textContent = age;
